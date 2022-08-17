@@ -7,7 +7,6 @@ var sezoneNaslov = document.querySelector(".seasons");
 
 var niz = localStorage.getItem("premiere");
 
-
 var a = new Array(niz);
 
 a.forEach((e, i, arr) => {});
@@ -35,10 +34,10 @@ function getSeasons() {
     });
 }
 
-function showTVShowDetails(show){
-img.setAttribute("src", show.image.medium);
-naslov.innerText = show.name;
-p.innerHTML = show.summary
+function showTVShowDetails(show) {
+  img.setAttribute("src", show.image.medium);
+  naslov.innerText = show.name;
+  p.innerHTML = show.summary;
 }
 
 function showSeasons(obj) {
@@ -56,12 +55,12 @@ function showSeasons(obj) {
 
 function showCast(obj) {
   obj.forEach((e, i, arr) => {
-      if(i < 10){
-          var li = document.createElement("li");
-      
-          li.innerText = e.person.name;
-      
-          uloge.append(li);
-      }
+    if (i < 10) {
+      var li = document.createElement("li");
+
+      li.innerText = e.person.name;
+
+      uloge.append(li);
+    }
   });
 }

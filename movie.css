@@ -1,86 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Tiro+Gurmukhi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Tiro+Gurmukhi&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Tiro Gurmukhi', serif;
-}
-
-body{
-    background-color: black;
-    color: white;
-}
-main{
-    min-height: calc(100vh - 120px);
-    padding-left: 100px;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20%;
-}
-header{
-    background-color: #5C5C5C;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 40px;
-}
-.logo{
-    font-weight: lighter;
-    color: white;
-}
-.search-bar{
-    border: none;
-    padding-left: 8px;
-    height: 28px;
-    border-radius: 5px;
-}
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #5c5c5c;
-    height: 80px;
-}
-h1{
-    margin-bottom: 50px;
-    font-size: 70px;
-}
-.details{
-    display: flex;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Tiro Gurmukhi", serif;
 }
 
-img{
-    height: 650px;
-    border: white 1px solid;
-    padding: 5px;
+body {
+  background-color: black;
+  color: white;
 }
-.detailsText{
-    display: flex;
-    flex-direction: column;
-    
-    margin-left: 50px;
-    
+main {
+  min-height: calc(100vh - 120px);
+  padding-left: 100px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+header {
+  background-color: #5c5c5c;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+.logo {
+  font-weight: lighter;
+  color: white;
+}
+.search-bar {
+  border: none;
+  padding-left: 8px;
+  height: 28px;
+  border-radius: 5px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #5c5c5c;
+  height: 80px;
+}
+h1 {
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+.details {
+  display: flex;
 }
 
-.info{
-    margin-top: 30px;
-    width: 70%;
+img {
+  height: 650px;
+  border: white 1px solid;
+  padding: 5px;
+}
+.detailsText {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 50px;
 }
 
-p{
-    margin: 20px 0px;
-    line-height: 30px;
+.info {
+  margin-top: 30px;
+  width: 70%;
 }
 
-h3{
-    color: yellow;
-    font-size: 30px;
-    margin-bottom: 30px;
+p {
+  margin: 20px 0px;
+  line-height: 30px;
 }
-.cast{
-    margin-top: 60px;
+
+h3 {
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.cast {
+  margin-top: 60px;
 }

@@ -28,7 +28,7 @@ function createURL(obj) {
     }
   });
 
-  top50.forEach(function (e, i, n) {
+  top50.forEach(function (e) {
     var card = document.createElement("div");
     var img = document.createElement("img");
     var naslov = document.createElement("h4");
